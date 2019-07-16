@@ -13,3 +13,13 @@
 .navigation-link-2 {
   margin: 10px 20px;
 }
+
+.header {
+  background-image: url('../../assets/sunscreen-cover-img.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 600px;
+}

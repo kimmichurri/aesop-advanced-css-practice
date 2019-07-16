@@ -3,7 +3,7 @@ import './Header.css';
 
 export default function Header() {
   return (
-    <div>
+    <div className="header">
       <section className="navigation">
         <ul className="navigation-links-1">
           <li className="navigation-link-1">Shop</li>
