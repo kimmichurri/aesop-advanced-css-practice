@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-links-1,
+.navigation-links-2 {
+  list-style: none;
+  display: flex;
+}
+
+.navigation-link-1,
+.navigation-link-2 {
+  margin: 10px 20px;
+}
