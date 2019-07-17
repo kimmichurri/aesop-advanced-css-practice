@@ -16,11 +16,15 @@ export default function Header() {
           <li className="navigation-link-2">Cart</li>
         </ul>
       </section>
+      <section className="product-spotlight">
+        <h1>Aēsop</h1>
+        <article className="product-spotlight-description">
+          <h2>Protection in direct and incidental sunlight</h2>
+          <p>Introducing Avail Facial Lotion with Sunscreen, to hydrate and help protext the face with broad-spectrum SPF25 coverage</p>
+          <button>Explore SPF25</button>
+        </article>
+      </section>
       
-      <h1>Aēsop</h1>
-      <h2>Protection in direct and incidental sunlight</h2>
-      <p>Introducing Avail Facial Lotion with Sunscreen, to hydrate and help protext the face with broad-spectrum SPF25 coverage</p>
-      <button>Explore SPF25</button>
     </div>
   )
 }
