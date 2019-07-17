@@ -17,11 +17,12 @@ export default function Header() {
         </ul>
       </section>
       <section className="product-spotlight">
-        <h1>Aēsop</h1>
+        <h1 className="brand-name">Aēsop</h1>
         <article className="product-spotlight-description">
+          <p className="product-type-indicator">Skin Care+</p>
           <h2>Protection in direct and incidental sunlight</h2>
           <p>Introducing Avail Facial Lotion with Sunscreen, to hydrate and help protext the face with broad-spectrum SPF25 coverage</p>
-          <button>Explore SPF25</button>
+          <button className="spotlight-button">Explore SPF25</button>
         </article>
       </section>
       

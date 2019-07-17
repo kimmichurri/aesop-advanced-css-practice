@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|News+Cycle|Open+Sans|Quattrocento+Sans|Raleway&display=swap');
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -34,4 +36,36 @@
 
 .product-spotlight-description {
   text-align: left;
+}
+
+.navigation-link-1,
+.navigation-link-2,
+.brand-name,
+.product-spotlight-description {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+button {
+  padding: 1em;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.spotlight-button {
+  border: 1px solid white;
+  transition: 0.2s;
+}
+
+.spotlight-button:hover {
+  background-color: #333333;
+  border: 1px solid #333333;
+}
+
+.button,
+.product-type-indicator {
+  font-size: .9rem;
+  font-weight: bold;
 }
