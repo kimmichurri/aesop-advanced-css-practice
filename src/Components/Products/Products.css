@@ -1,3 +1,14 @@
 .products-display-wrapper {
   background-color: #FFFEF2;
 }
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+}
+
+.product-image {
+  height: 250px;
+  margin: 100px;
+}
+
