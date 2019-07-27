@@ -17,6 +17,10 @@
   margin: 100px;
 }
 
+.product-image:hover {
+  cursor: pointer;
+}
+
 .product-image-description {
   position: absolute;
   visibility: hidden;
@@ -45,6 +49,7 @@
   cursor: grab;
 }
 
-.product-image:hover {
-  cursor: pointer;
+.carousel-product-intro {
+  padding: 50px;
+  text-align: left;
 }
