@@ -25,7 +25,6 @@ export default function Header() {
           <button className="spotlight-button">Explore SPF25</button>
         </article>
       </section>
-      
     </div>
   )
 }
