@@ -7,8 +7,44 @@
   overflow-x: auto;
 }
 
+.product-wrapper {
+  position: relative;
+  height: 600px;
+}
+
 .product-image {
   height: 250px;
   margin: 100px;
 }
 
+.product-image-description {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.product-wrapper:hover .product-image-description {
+  visibility: visible;
+  opacity: 1;
+  padding: 0px 20px;
+  margin: auto 10%;
+  transition: opacity 0.5s linear;
+  -webkit-transition: opacity 0.5s linear;
+}
+
+.product-wrapper:hover .box-set-image {
+  visibility: visible;
+  opacity: 1;
+  padding: 0px 20px;
+  margin: auto 18%;
+  transition: opacity 0.5s linear;
+  -webkit-transition: opacity 0.5s linear;
+}
+
+.carousel:hover {
+  cursor: grab;
+}
+
+.product-image:hover {
+  cursor: pointer;
+}
