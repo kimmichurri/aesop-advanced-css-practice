@@ -79,7 +79,7 @@ export default function Products() {
             <img
               className="product-image"
               src={DepartureTravelSet}
-              alt="picture of various products in Departure Travel Set"
+              alt="various products in Departure Travel Set"
             />
             <div className="product-image-description box-set-image">
               <h4>Departure Travel Set</h4>
@@ -114,7 +114,7 @@ export default function Products() {
             <img
               className="product-image"
               src={NashvilleProductLine}
-              alt="picture of various products from Nashville Product Line"
+              alt="various products from Nashville Product Line"
             />
             <div className="product-image-description box-set-image">
               <h4>Nashville Product Line</h4>
