@@ -1,0 +1,18 @@
+.footer {
+  background-color: #FFFEF2;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "email-notification contact-us about social";
+  text-align: left;
+}
+
+.email-notification,
+.contact-us,
+.about,
+.social {
+  margin: 16px;
+}
+

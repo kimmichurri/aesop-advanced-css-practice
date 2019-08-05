@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Products from '../Products/Products';
 import Locator from '../Locator/Locator';
 import Quotation from '../Quotation/Quotation';
+import Footer from '../Footer/Footer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Products />
         <Locator />
         <Quotation />
+        <Footer />
     </div>
   );
 }
