@@ -4,7 +4,7 @@ import StoreLocatorImage from '../../assets/StoreLocatorImage.png';
 
 export default function Locator() {
   return (
-    <div>
+    <div className="store-locator-wrapper">
       <article className="store-locator-information">
         <p className="locator-text">Visit</p>
         <p className="locator-text">Store Locator</p>

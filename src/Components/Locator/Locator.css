@@ -1,3 +1,12 @@
+.store-locator-wrapper {
+  background-color: #FFFEF2;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "store-locator-information store-locator-image"
+}
+
 .store-locator-information {
   padding: 50px;
   text-align: left;
@@ -22,4 +31,9 @@
 .store-locator-button:hover {
   background-color: #333333;
   color: #FFF;
+}
+
+.featured-store-image {
+  height: 400px;
+  margin: 50px 0px 50px 100px;
 }
