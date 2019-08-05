@@ -1,0 +1,25 @@
+.store-locator-information {
+  padding: 50px;
+  text-align: left;
+}
+
+.locator-text {
+  font-weight: bold;
+}
+
+.locator-text:hover {
+  cursor: pointer;
+}
+
+.store-locator-button {
+  color: #333333;
+  font-size: .9rem;
+  font-weight: bold;
+  transition: 0.2s;
+  border: 1px solid #333333;
+}
+
+.store-locator-button:hover {
+  background-color: #333333;
+  color: #FFF;
+}
