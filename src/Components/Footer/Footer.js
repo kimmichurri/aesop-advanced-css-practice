@@ -6,10 +6,14 @@ export default function Footer() {
     <div className="footer">
       <article className="email-notification">
         <p>I would like to receive communications about Aesop products, services, stores, events and matters of cultural interest.</p>
-        <p>Email address</p>
+        <input
+          className="email-input"
+          type="email"
+          placeholder="Email address"
+        />
       </article>
       <article className="contact-us">
-        <h4>Contact Us</h4>
+        <h4 className="footer-heading">Contact Us</h4>
         <ul>
           <li>Contact Us</li>
           <li>Delivery and returns</li>
@@ -21,7 +25,7 @@ export default function Footer() {
         </ul>
       </article>
       <article className="about">
-        <h4>About</h4>
+        <h4 className="footer-heading">About</h4>
         <ul>
           <li>Our story</li>
           <li>Careers</li>
@@ -31,7 +35,7 @@ export default function Footer() {
         </ul>
       </article>
       <article className="social">
-        <h4>Social</h4>
+        <h4 className="footer-heading">Social</h4>
         <ul>
           <li>Instagram</li>
           <li>Twitter</li>

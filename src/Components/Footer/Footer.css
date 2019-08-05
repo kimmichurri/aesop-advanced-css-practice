@@ -1,12 +1,13 @@
 .footer {
   background-color: #FFFEF2;
-  padding: 50px;
+  padding: 0px 50px;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
     "email-notification contact-us about social";
   text-align: left;
+  color: #333333;
 }
 
 .email-notification,
@@ -16,3 +17,32 @@
   margin: 16px;
 }
 
+li {
+  list-style-type: none;
+  font-weight: bolder;
+  font-size: 15px;
+  margin: 15px 0px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.email-input {
+  background-color: transparent;
+  border: none;
+  padding: 0px 10px 5px 5px;
+  border-bottom: 1px solid #c6c6c6;
+  font-size: 24px;
+  width: 85%;
+  margin-top: 60px;
+}
+
+.footer-heading {
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
