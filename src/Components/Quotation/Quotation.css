@@ -1,0 +1,17 @@
+.quotation-wrapper {
+  background-color: #FFFEF2;
+  margin: 0px auto 0px;
+  padding: 150px 25%;
+}
+
+.quote-text {
+  font-size: 2rem;
+  color: #333333;
+  font-family: 'Libre Caslon Text', serif;
+}
+
+.quote-author {
+  font-size: .9rem;
+  font-weight: bold;
+  color: #333333;
+}
