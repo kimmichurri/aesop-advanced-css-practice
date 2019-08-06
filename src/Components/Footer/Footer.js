@@ -5,12 +5,21 @@ export default function Footer() {
   return(
     <div className="footer">
       <article className="email-notification">
-        <p>I would like to receive communications about Aesop products, services, stores, events and matters of cultural interest.</p>
-        <input
-          className="email-input"
-          type="email"
-          placeholder="Email address"
-        />
+        <p className="email-instructions">I would like to receive communications about Aesop products, services, stores, events and matters of cultural interest.</p>
+        <div className="email-input-wrapper">
+          <label
+            htmlFor="email-address"
+            className="email-address-label">
+              Email address
+          </label>
+          <input
+            name="email-address"
+            id="email-address"
+            className="email-input"
+            type="email"
+            placeholder="kimberly.achkio@gmail.com"
+          />
+        </div>
       </article>
       <article className="contact-us">
         <h4 className="footer-heading">Contact Us</h4>

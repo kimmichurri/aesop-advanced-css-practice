@@ -10,11 +10,25 @@
   color: #333333;
 }
 
+.email-instructions {
+  margin-bottom: 60px;
+}
+
 .email-notification,
 .contact-us,
 .about,
 .social {
   margin: 16px;
+}
+
+.email-address-label {
+  visibility: visible;
+  opacity: 1;
+}
+
+.footer-heading {
+  font-weight: lighter;
+  margin-bottom: 40px;
 }
 
 li {
@@ -39,10 +53,31 @@ ul {
   border-bottom: 1px solid #c6c6c6;
   font-size: 24px;
   width: 85%;
-  margin-top: 60px;
+  margin-top: 8px;
+  cursor: text;
 }
 
-.footer-heading {
-  font-weight: lighter;
-  margin-bottom: 40px;
+.email-input:focus {
+  outline: none;
+}
+
+.email-input:invalid {
+  color: #EA6956;
+}
+
+.email-input:valid {
+  color: #007f00;
+}
+
+input {
+  transition: all 0.2s;
+}
+
+::-webkit-input-placeholder {
+  opacity: 0;
+  transition: inherit;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 1;
 }
