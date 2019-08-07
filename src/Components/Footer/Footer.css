@@ -1,13 +1,27 @@
 .footer {
   background-color: #FFFEF2;
-  padding: 0px 50px;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
-  grid-template-rows: 6fr 1fr;
-  grid-template-areas:
-    "email-notification contact-us about social"
-    "bottom-border bottom-border bottom-border bottom-border";
+  grid-template-rows: 4fr 1fr;
+  grid-template-areas:  "email-notification contact-us about social"
+                        "bottom-border bottom-border bottom-border bottom-border";
   text-align: left;
+}
+
+.email-notification {
+  grid-area: email-notification;
+}
+
+.contact-us {
+  grid-area: contact-us;
+}
+
+.about {
+  grid-area: about;
+}
+
+.social {
+  grid-area: social;
 }
 
 .email-instructions {
@@ -18,7 +32,7 @@
 .contact-us,
 .about,
 .social {
-  margin: 16px;
+  margin: 30px;
 }
 
 .email-address-label {
@@ -84,12 +98,13 @@ input:focus::-webkit-input-placeholder {
 }
 
 .bottom-border {
+  grid-area: bottom-border;
   display: flex;
   justify-content: space-between;
   background-color: #252525;
+  padding: 20px 40px;
 }
 
 .bottom-border-text {
   color: #CCCCCC;
-  width: 100%;
 }
