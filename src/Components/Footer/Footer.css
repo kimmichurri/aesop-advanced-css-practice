@@ -3,11 +3,11 @@
   padding: 0px 50px;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: 6fr 1fr;
   grid-template-areas:
-    "email-notification contact-us about social";
+    "email-notification contact-us about social"
+    "bottom-border bottom-border bottom-border bottom-border";
   text-align: left;
-  color: #333333;
 }
 
 .email-instructions {
@@ -81,4 +81,15 @@ input {
 
 input:focus::-webkit-input-placeholder {
   opacity: 1;
+}
+
+.bottom-border {
+  display: flex;
+  justify-content: space-between;
+  background-color: #252525;
+}
+
+.bottom-border-text {
+  color: #CCCCCC;
+  width: 100%;
 }

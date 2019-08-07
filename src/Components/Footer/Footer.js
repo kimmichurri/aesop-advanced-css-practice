@@ -51,6 +51,10 @@ export default function Footer() {
           <li>LinkedIn</li>
         </ul>
       </article>
+      <article className="bottom-border">
+        <p className="bottom-border-text">Aesop</p>
+        <p className="bottom-border-text">United States</p>
+      </article>
     </div>
   )
 }
